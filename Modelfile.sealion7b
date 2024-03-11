@@ -1,0 +1,12 @@
+FROM /Users/uli/.ollama/models/blobs/sha256:7eafba8af0d960d243973293ad0d7c0aa57f39d1f7f8342f52120659322eac0b
+TEMPLATE """{{ .System }}
+### HUMAN:
+{{ .Prompt }}
+### RESPONSE:
+"""
+SYSTEM """
+You're an AI assistant and your responses are short and crisp.
+"""
+PARAMETER stop "### HUMAN:"
+PARAMETER stop "### RESPONSE:"
+PARAMETER temperature 0.7
