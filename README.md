@@ -1,5 +1,5 @@
 # simi
-An AI assistant based on the Sea-Lion large language model
+An AI assistant based on the SeaLLM-7B-v2 large language model
 
 
 ## Run with ollama
